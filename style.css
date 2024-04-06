@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 50px;
+}
+body{
+    padding: 50px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+/* heading styling */
+
+.logoname{
+    color: rgba(48, 40, 40, 0.808);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#head_para{
+    color: rgba(65, 58, 58, 0.836);
+    font-family:Arial, Helvetica, sans-serif;
+    /* position: relative;
+    right: 15rem; */
+}
+.logodetaile{
+    display: flex;
+    gap: 5px;
+    /* position: relative;
+    right: 15rem; */
+}
+.logo{
+    height: 40px;
+}
+.head_right a{
+    text-decoration: none;
+    border-bottom: 2px solid rgba(32, 30, 167, 0.527);
+    color: rgba(24, 70, 139, 0.836);
+    font-size: 1.0rem;
+     margin: 2px;
+}
+.head_right a:hover{
+    transform: scale(1.1);
+    transition: all 400ms linear 0s;
+    box-shadow:  2px 2px 6px rgb(27, 27, 78);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(189, 150, 98); */
+}
+header{
+    padding-left: 5px;
+    padding-right: 8px;
+    border-left: 3px solid rgba(110, 105, 105, 0.733);
+    border-right: 3px solid rgba(110, 105, 105, 0.733);
+    width: 59.7rem;
+    background-color: rgb(170, 160, 144);
+}
+.head_right{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    /* position: relative;
+    left: 15rem; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-left: 2px solid black; */
+}
+.mainSection{
+    border-left: 3px solid rgba(110, 105, 105, 0.733);
+    border-right: 3px solid rgba(110, 105, 105, 0.733);
+}
+/* firstbox styling */
+
+.firstbox{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(245, 245, 222);
+    overflow: hidden;
+    
+}
+.firstbox_left{
+    /* border: 2px solid; */
+    width: 630px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom-right-radius: 200px;
+    background-color: rgb(238, 238, 238);
+    gap: 30px;
+    margin: 5px;
+}
+.firstbox_right{
+    overflow: hidden;
+}
+#firstbox_button{
+    width: 140px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgba(28, 119, 40, 0.863);
+    font-weight: 1000;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,;
+    margin-left: 30px;
+    
+}
+button:hover{
+    box-shadow: 5px 5px 20px green,-5px -5px 20px green  ;
+    transition: all 200ms linear 0s;
+}
+.firstbox:hover img{
+    transform: scale(1.1);
+    transition: all 400ms linear 0s;
+}
+#firstbox_h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(113, 113, 255);
+    font-weight: 1000;
+    padding-left: 30px;
+    width: 500px;
+}
+#firstbox_h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgba(73, 65, 65, 0.836);
+    font-size: 20px;
+    padding-left: 30px;
+    width: 500px;
+}
+
+/* secondbox styling */
+.secondbox{
+    background-color: rgb(243, 248, 252);
+    padding-bottom: 50px;
+}
+#secondbox_pre{
+    padding-top: 30px;
+    padding-right: 50px;
+    position: relative;
+    right: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
+}
+
+/* ThirdBox Styling */
+.thirdbox{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #e6e4de8f;
+    height: 200px;
+}
+.thirdbox_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    padding-left: 30px;
+    background-image: linear-gradient(120deg, #a1c4fd2f 0%, #c2e9fb 100%);
+    border-bottom-right-radius: 200px;
+    width: 650px;
+}
+#thirdbox_h1{
+    color: rgba(29, 27, 27, 0.911);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#thirdbox_para{
+    width: 500px;
+    color: rgb(83, 79, 79);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.thirdbox_right{
+    position: relative;
+    top: 20px;
+}
+.thirdbox:hover img{
+    transform: scale(1.1);
+    transition: all 400ms linear 0s;
+}
+
+/* fourthBox Styling */
+.fourthbox{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-color: #e4ecf0;
+    height: 450px;
+}
+.fourthbox_card1{
+    border-bottom: 3px solid rgba(163, 159, 159, 0.856);
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+}
+.fourthbox_card1:hover img{
+    transform: scale(1.1);
+}
+.fourthbox_card1 img{
+    height: 50%;
+    width: 100%;
+}
+#fourthbox_h4{
+    width: 200px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.time1{
+    display: flex;
+    gap: 5px;
+}
+#time1_para{
+    font-size: 17px; 
+   font-weight: 100;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.learners1{
+    display: flex;
+    gap: 5px;
+}
+#learners1_para{
+    font-size: 17px; 
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fourthbox_button{
+    background-color: rgb(37, 110, 37);
+    border: none;
+    border-radius: 23px;
+    padding: 13px;
+    margin-bottom: 12px;
+    width: 150px;
+}
+#fourthbox_button a{
+    color: white;
+    font-size: small;
+}
+/* fifthbox styling */
+.fifthbox{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #c9cbce8f;
+}
+.fifthbox:hover img{
+    transform: scale(1.1);
+    transition: all 400ms linear 0s;
+}
+.fifithbox_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    padding-left: 30px;
+    background-image: linear-gradient(120deg, #a1c4fd2f 0%, #c2e9fb 100%);
+    border-bottom-right-radius: 200px;
+    width: 715px;
+}
+#fifthbox_h1{
+    color: rgba(29, 27, 27, 0.911);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#fifthbox_para{
+    width: 500px;
+    color: rgb(83, 79, 79);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* sixthbox styling */
+.sixthbox{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-color: #e4ecf0;
+    height: 450px;
+}
+/* seventhbox_styling */
+#sevenththbox_img{
+    height: 140px;
+    position: relative;
+    top: 10px;
+}
+#sevenththbox_left{
+    width: 820px;
+    background-image: linear-gradient(120deg, #a1c4fd2f 0%, #c2e9fb 100%);
+}
+ /* eightbox styling */
+ .eightbox{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-color: #e4ecf0;
+    height: 450px;
+ }
+
+ /* footer section */
+ footer{
+    height: 45px;
+    width: 59.7rem;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(40, 40, 158, 0.966);
+    border-left: 3px solid rgba(110, 105, 105, 0.733);
+    border-right: 3px solid rgba(110, 105, 105, 0.733);
+ }
+ .div1{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+ }
+ .div1 h2{
+   font-size: medium;
+   color: rgba(201, 193, 193, 0.918);
+ }
+ .div1 p{
+    font-size: small;
+    color: rgba(201, 193, 193, 0.918);
+
+ }
+ .div2{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+ }
+ .div2 h2{
+    font-size: medium;
+    color: rgba(201, 193, 193, 0.918);
+  }
+  .div2 p{
+     font-size: small;
+     color: rgba(201, 193, 193, 0.918);
+ 
+  }
+ .div3{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+ }
+ .div3 h2{
+    font-size: medium;
+    color: rgba(201, 193, 193, 0.918);
+  }
+  .div3 p{
+     font-size: small;
+     color: rgba(201, 193, 193, 0.918);
+ 
+  }
+ .div4{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+ }
+ .div4 h2{
+    font-size: medium;
+    color: rgba(201, 193, 193, 0.918);
+  }
+  .div4 p{
+     font-size: small;
+     color: rgba(201, 193, 193, 0.918);
+ 
+  }
